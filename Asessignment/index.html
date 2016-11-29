@@ -1,0 +1,124 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mihir Pathak</title>
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+
+    
+<body>
+    <!---- Navigation bar--------->
+
+<img class="DMUHS"/img>    
+    
+<header>
+	<nav id="nav-main">
+		<div id="nav-mobile"><i class="fa fa-bars"></i> MENU</div>
+		    <a href="">Home</a>
+            <a href="login2.php">Sign in</a>
+            <a href="register2.php">Register</a>
+            <a href="https://www.demontfortsu.com/soc/Hindu/"target="_blank">Dmu SU</a>
+        <!--- the 'target' code makes the link open in new tab ---> 
+        	<a href="#Contacts">Contact us</a>
+	</nav>
+
+</header>    
+<br/>   
+    
+ <div class="container">   
+ <main> 
+
+    <div id="title">
+         <div id="title_text">
+          <p4>DMU Hindu Society</p4>
+         </div>
+     </div>
+    <!------- Body Context----------------------->
+    <br/> 
+     
+       <div id="p1wrapper">
+             Hello and Namaste! <br/>
+             welcome to DMU Hindu Society.
+             If you wish to join us, then please click the 'DMUSU' link to pay the joining fee.
+             Then you can register on our site by clicking the 'Register' tab.
+             having done that, you can now sign in with your username and password to keep up to date with our events and activities. 
+    </div>
+    
+ 
+<br/>
+<br/> 
+     <div id="slideshow">
+       <img class="mySlides" src="Imgs/CZ9.jpg" />
+       <img class="mySlides" src="Imgs/CZ1.jpg" />
+       <img class="mySlides" src="Imgs/CZ6.jpg" /> 
+       <img class="mySlides" src="Imgs/CZ5.jpg" />
+   </div> 
+     
+<style>
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 20%;
+}
+</style>     
+     
+<!-- jQuery for the image slide show -->     
+   <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+<!------------------------------- Footer ---------------------------------------------->   
+<br/>
+         
+</main> 
+</div>
+ 
+<div id="footer">
+    <section id="contacts">
+        <h3>Contacts:</h3>
+        <p2>
+            President: Ravi Jagaita
+        </p2>
+        <br/>
+        <p2>
+            Gen Sec: Meenar 
+        </p2>
+    </section> 
+    
+       <section>     
+           <div class="social-buttons">
+               <a href="" class="social-button facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+               <a href="#" class="social-button twitter"><i class="fa fa-twitter"target="_blank"></i></a>
+               <a href="#" class="social-button instagram"><i class="fa fa-instagram"target="_blank"></i></a>
+               <a href="#" class="social-button dribbble"><i class="fa fa-dribbble"target="_blank"></i></a>
+               <a href="#" class="social-button skype"><i class="fa fa-skype"target="_blank"></i></a>
+           </div>
+    </section> 
+
+</div>      
+    
+    
+</body>
+    
+</html>
+
